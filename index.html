@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <header class="container">
+        <div class="content">
+            <input type="search" class="input card-filter" placeholder="search a country">
+        </div>
+    </header>
+
+    <div class="container countries bd-grid">
+
+    </div>
+
+    <template id="template">
+        <div class="card animate__animated animate__fadeIn" bd-grid">
+            <div class="img">
+                <img src="" alt="">
+            </div>
+
+            <div class="card-content">
+                <label for="country">Name:</label>
+                <h3 class="country"></h3>
+                <label for="capital">Capital:</label>
+                <h3 class="capital"></h3>
+                <label for="region">Region:</label>
+                <h3 class="region"></h3>
+                <label for="subregion">Subregion:</label>
+                <h3 class="subregion"></h3>
+            </div>
+        </div>
+    </template>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
